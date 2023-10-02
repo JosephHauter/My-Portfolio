@@ -3,10 +3,9 @@ import '../App.css';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import About from './About';
-import Projects from './/Projects';
 import Blog from './Blog';
 import Resume from './Resume';
-import Contact from './Contact';
+// import Contact from './Contact';
 import { ThemeProvider } from 'next-themes'
 import '../global.css'
 import { TypeAnimation } from 'react-type-animation';
@@ -21,10 +20,8 @@ function App() {
     <div className="gradient-circle"></div>
     <div className="gradient-circle-bottom"></div>
     <Routes>
-        {/* <Route path="/" element={<App />} /> Replace HomePage with your actual home page component */}
         <Route path="/resume" element={<Resume />} />
         <Route path="/blog" element={<Blog />} />
-        {/* Other routes here */}
       </Routes>
     <div className="container mx-auto mb-10">
       <Header />
@@ -100,8 +97,6 @@ function App() {
         </div>
     
       {/* 
-      <Blog />
-      <Resume />
       <Contact />
        */}
        <Footer />

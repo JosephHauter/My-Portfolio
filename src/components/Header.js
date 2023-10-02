@@ -36,7 +36,7 @@ function Header() {
             <img 
               src={theme === "dark" ? "/images/moon.svg" : "/images/sun.svg"} 
               alt="Theme toggle"
-              style={{ width: '100%', height: '100%' }} // Make the image fill the button
+              style={{ width: '100%', height: '100%' }} 
             />
           </button>
         </div>

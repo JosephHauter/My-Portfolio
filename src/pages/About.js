@@ -15,7 +15,7 @@ function About() {
         {<div className="card-body font-trebuchet text-justify ml-3 mr-3" style={{height: "auto", fontSize: "132%", lineHeight: "200%"}}>
   <br />
   <div style={{display: "flex", justifyContent: "center"}}>
-    <img src='images/me.png' class='object-contain' style={{width: "20%", height: "auto", borderRadius: "12%"}}></img> {/* Add borderRadius: "50%" */}
+    <img src='images/me.png' class='object-contain' style={{width: "20%", height: "auto", borderRadius: "12%"}}></img> 
   </div>
   <br />
   <p>
