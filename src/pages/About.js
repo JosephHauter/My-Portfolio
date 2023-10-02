@@ -3,8 +3,8 @@ import { TypeAnimation } from 'react-type-animation';
 
 function About() {
   return (
-    <div  id='about'>
-        <h1 className='text-3xl sm:text-6xl lg:text-6xl xl:text-8xl p-1 sm:p-2 w-4/5 sm:w-full lg:w-4/5 transform translate-x-0 translate-y-0 opacity-100'>About.</h1>
+<div class="container mx-auto mb-10 max-w-screen-xl" id='about'>
+          <h1 className="tablet:m-10 text-2xl text-bold">About.</h1>
     <div className="app-window">
       <div className="app-window-header">
         <div className="app-window-button red"></div>
