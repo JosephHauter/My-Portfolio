@@ -13,7 +13,7 @@ const Resume = () => {
     <div>      
       <Header />
       <br/><br/><br/><br/>      
-      <div className="container mx-auto mb-10" style={{ display: 'flex', justifyContent: 'center' }}>
+      <div className="container mx-auto mb-10 bg-slate-50	" style={{ display: 'flex', justifyContent: 'center' }}>
         <Document file={resume}>
           <Page pageNumber={1} scale={1.5} /> {/* Increase scale to make PDF larger */}
         </Document>
