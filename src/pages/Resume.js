@@ -14,6 +14,7 @@ const Resume = () => {
   return (
     <div>      
       <Header />
+      <br/><br/><br/><br/>      
       <div className="container mx-auto mb-10" style={{ display: 'flex', justifyContent: 'center' }}>
         <Document file={resume}>
           <Page pageNumber={1} scale={1.5} /> {/* Increase scale to make PDF larger */}
