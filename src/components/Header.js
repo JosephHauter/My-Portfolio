@@ -6,7 +6,7 @@ function Header() {
   const { theme, setTheme } = useTheme()
   return (
     <header>
-      <div className='className="header absolute top-0 right-0 flex flex-col items-start justify-center px-25 lg:px-35 xl:px-40 font-hind"'>
+      <div className="mt-10">
         <div className="flex">
           <button className="text-sm sm:text-base p-1 lg:p-2 m-1 lg:m-2 rounded-lg flex items-center transition-all ease-out duration-300 hover:bg-slate-100 hover:scale-105 active:scale-100 cursor-pointer" onClick={() => window.location.href="#home"}>Home</button>
           <button className="text-sm sm:text-base p-1 lg:p-2 m-1 lg:m-2 rounded-lg flex items-center transition-all ease-out duration-300 hover:bg-slate-100 hover:scale-105 active:scale-100 cursor-pointer" onClick={() => window.location.href="#about"}>About</button>
@@ -21,6 +21,8 @@ function Header() {
             style={{
               width: '30px',
               height: '30px',
+              marginTop: '10px'
+              
             }}
           >
             <img 

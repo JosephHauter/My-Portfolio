@@ -13,9 +13,10 @@ import './global.css'
 
 function App() {
   return (
-    <div className="App">
-      <ThemeProvider>
-      <div className="gradient-circle"></div>
+    <ThemeProvider>
+    <div className="gradient-circle"></div>
+    <div className="gradient-circle-bottom"></div>
+    <div className="container mx-auto mb-10">
       <Header />
       <div class="flex flex-col items-start justify-center min-h-screen mx-auto w-4/5 font-hind">
   <div class="mt-5">
@@ -25,10 +26,6 @@ function App() {
     <h1 class="text-3xl sm:text-6xl lg:text-6xl xl:text-8xl p-1 sm:p-2 w-full lg:w-4/5 transform translate-x-0 translate-y-0 opacity-100">based in New York City.</h1>
   </div>
 </div>
-
-
-
-
       {/* <Home />
       <About />
       <Projects />
@@ -37,10 +34,8 @@ function App() {
       <Contact />
       <Footer /> */}
       
-      <div className="gradient-circle-bottom"></div>
-      </ThemeProvider>
     </div>
-    
+    </ThemeProvider>
   );
 }
 
