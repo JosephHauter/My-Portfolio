@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import AnimatedCursor from "react-animated-cursor";
+
 const ScrollButton = () => {
 
   const [visible, setVisible] = useState(false)
@@ -39,6 +41,15 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <ScrollButton/>
+    <AnimatedCursor
+      innerSize={12} // Increase the inner size
+      outerSize={12} // Increase the outer size
+      color='193, 11, 111'
+      outerAlpha={0.1} // Decrease the outer alpha to make it less visible
+      innerScale={1} // Increase the inner scale to make it bigger when hovering over a target
+      outerScale={3} // Decrease the outer scale to make it smaller when hovering over a target
+      trailingSpeed={2}
+    />
     <App />
   </React.StrictMode>
 );

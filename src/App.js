@@ -23,11 +23,11 @@ function App() {
   
   return (
     <ThemeProvider>
+
       <div className="gradient-circle"></div>
       <div className="gradient-circle-bottom"></div>
       <Router>
       <ScrollToTop />
-
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/resume" element={<Resume />} />

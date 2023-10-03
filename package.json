@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^13.5.0",
     "next-themes": "^0.2.1",
     "react": "^18.2.0",
+    "react-animated-cursor": "^2.10.1",
     "react-dom": "^18.2.0",
     "react-pdf": "^7.4.0",
     "react-router-dom": "^6.16.0",
