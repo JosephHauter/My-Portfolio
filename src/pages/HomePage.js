@@ -57,12 +57,13 @@ function App() {
     img={"images/Monkeypox_Proj.png"}
     name={"Hackathon Project - Virus Tracker"}
     description={"Hackathon Project that won Public Favortie was my first ever hackathon alongside with my teamates. We had a ton of fun and worked all night long and learned so much. Built with Javascript,D3.js, Chat.js,HTML, CSS, Bootstrap."}
-    onClick={()=> window.open("https://github.com/JosephHauter/Virus-Tracker")}
+    onClick={()=> window.open("https://josephhauter.github.io/Virus-Tracker/")}
     />
-
-  <WorkCard key={"Project 4"} img={"images/Tracker.png"} name={"ToDoList Tracker"} description={"Wanted to learn react.js and what better way than to start with a activity tracker, but with a motivational quote API every time you refresh."} onClick={()=> window.open("https://github.com/JosephHauter/Virus-Tracker")} />
+    <WorkCard key={"Project 5"} img={"/images/WorldHunger.png"} name={"Fight World Hunger"} description={"Built part of my bootcamp with codepath for Web developoment, features finding your local food bank, news on food shortage and teaches valuable lesson."} onClick={()=> window.open("https://josephhauter.github.io/Fight-World-Hunger/")} />
+  
+  <WorkCard key={"Project 4"} img={"images/Tracker.png"} name={"ToDoList Tracker"} description={"Wanted to learn react.js and what better way than to start with a activity tracker, but with a motivational quote API every time you refresh."} onClick={()=> window.open("https://todo-list-five-rose.vercel.app/")} />
   <WorkCard key={"Project 2"} img={"images/twitterClone.png"} name={"Twitter Clone"} description={"Twitter Clone built with teammate for a bootcamp built with Javascript, next.js, HTML, CSS, mongoDB"} onClick={()=> window.open("https://github.com/JosephHauter/Social-Media-App")} />
-  <WorkCard key={"Project 3"} img={"images/alarmc.jpg"} name={"Alarm Clock W/GUI"} description={"Built an Alarm Clock with a GUI using Python and you can add custom alarm sounds. "} onClick={()=> window.open("https://github.com/JosephHauter/AlarmClock-With-GUI")} />
+  {/* <WorkCard key={"Project 3"} img={"images/alarmc.jpg"} name={"Alarm Clock W/GUI"} description={"Built an Alarm Clock with a GUI using Python and you can add custom alarm sounds. "} onClick={()=> window.open("https://github.com/JosephHauter/AlarmClock-With-GUI")} /> */}
   {/* <WorkCard key={"Project 5"} img={"images/atm app.png"} name={"ATM Banking App"} description={"Built my first ever C++ project making a ATM APP where you can deposit, withdraw, check balance."} onClick={()=> window.open("https://github.com/JosephHauter/Virus-Tracker")} /> */}
 
 </div>
