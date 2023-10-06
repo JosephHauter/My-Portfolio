@@ -41,6 +41,7 @@ function App() {
 </Link>
     <button className="text-sm sm:text-base p-1 lg:p-2 m-1 lg:m-2 rounded-lg flex items-center transition-all ease-out duration-300 hover:bg-slate-100 hover:scale-105 active:scale-100 cursor-pointer" onClick={() => window.open("https://www.linkedin.com/in/joseph-hauter-2a3240208/")}>LinkedIn</button>
     <button className="text-sm sm:text-base p-1 lg:p-2 m-1 lg:m-2 rounded-lg flex items-center transition-all ease-out duration-300 hover:bg-slate-100 hover:scale-105 active:scale-100 cursor-pointer" onClick={() => window.open("https://github.com/JosephHauter")}>GitHub</button>
+    <a href="mailto:HauterJoseph7@gmail.com"><button className="text-sm sm:text-base p-1 lg:p-2 m-1 lg:m-2 rounded-lg flex items-center transition-all ease-out duration-300 hover:bg-slate-100 hover:scale-105 active:scale-100 cursor-pointer" onClick={() => window.location.href="#contact"}>Contact</button></a>
   
   </div>
 
@@ -49,25 +50,8 @@ function App() {
   
   <About />
 
-  <br /><br /><br /><br /><br />
-  <div class="container mx-auto mb-10 max-w-screen-xl" id="projects">
-    <h1 className="tablet:m-10 text-2xl text-bold">Projects.</h1>
-  <div className="grid grid-cols-2 gap-10">
-  <WorkCard key={"Project 1"}
-    img={"images/Monkeypox_Proj.png"}
-    name={"Hackathon Project - Virus Tracker"}
-    description={"Hackathon Project that won Public Favortie was my first ever hackathon alongside with my teamates. We had a ton of fun and worked all night long and learned so much. Built with Javascript,D3.js, Chat.js,HTML, CSS, Bootstrap."}
-    onClick={()=> window.open("https://josephhauter.github.io/Virus-Tracker/")}
-    />
-    <WorkCard key={"Project 5"} img={"/images/WorldHunger.png"} name={"Fight World Hunger"} description={"Built part of my bootcamp with codepath for Web developoment, features finding your local food bank, news on food shortage and teaches valuable lesson."} onClick={()=> window.open("https://josephhauter.github.io/Fight-World-Hunger/")} />
-  
-  <WorkCard key={"Project 4"} img={"images/Tracker.png"} name={"ToDoList Tracker"} description={"Wanted to learn react.js and what better way than to start with a activity tracker, but with a motivational quote API every time you refresh."} onClick={()=> window.open("https://todo-list-five-rose.vercel.app/")} />
-  <WorkCard key={"Project 2"} img={"images/twitterClone.png"} name={"Twitter Clone"} description={"Twitter Clone built with teammate for a bootcamp built with Javascript, next.js, HTML, CSS, mongoDB"} onClick={()=> window.open("https://github.com/JosephHauter/Social-Media-App")} />
-  {/* <WorkCard key={"Project 3"} img={"images/alarmc.jpg"} name={"Alarm Clock W/GUI"} description={"Built an Alarm Clock with a GUI using Python and you can add custom alarm sounds. "} onClick={()=> window.open("https://github.com/JosephHauter/AlarmClock-With-GUI")} /> */}
-  {/* <WorkCard key={"Project 5"} img={"images/atm app.png"} name={"ATM Banking App"} description={"Built my first ever C++ project making a ATM APP where you can deposit, withdraw, check balance."} onClick={()=> window.open("https://github.com/JosephHauter/Virus-Tracker")} /> */}
 
-</div>
-  </div>
+
   <br /><br /><br /><br /><br />
 
   <div class="container mx-auto mb-10 max-w-screen-xl" id="skills">
@@ -96,6 +80,29 @@ function App() {
               />
         </div>
         </div>
+
+        <br /><br /><br /><br /><br />
+  <div class="container mx-auto mb-10 max-w-screen-xl" id="projects">
+    <h1 className="tablet:m-10 text-2xl text-bold">Projects.</h1>
+  <div className="grid grid-cols-2 gap-10">
+  <WorkCard key={"Project 1"}
+    img={"images/Monkeypox_Proj.png"}
+    name={"Hackathon Project - Virus Tracker"}
+    description={"Hackathon Project that won Public Favortie was my first ever hackathon alongside with my teamates. We had a ton of fun and worked all night long and learned so much. Built with Javascript,D3.js, Chat.js,HTML, CSS, Bootstrap."}
+    onClick={()=> window.open("https://josephhauter.github.io/Virus-Tracker/")}
+    />
+    
+    <WorkCard key={"Project 2"} img={"/images/WorldHunger.png"} name={"Fight World Hunger"} description={"Built part of my bootcamp with codepath for Web developoment, features finding your local food bank, news on food shortage and teaches valuable lesson."} onClick={()=> window.open("https://josephhauter.github.io/Fight-World-Hunger/")} />
+    <WorkCard key={"Project 6"} img={"images/dashboard.png"} name={"Country Market Data Dashboard"} description={"This project is a data dashboard that allows you to explore different types of data for various countries. It uses data from the Quandl API and presents it in a user-friendly format using Dash and Plotly. The dashboard includes several interactive components such as dropdowns and sliders that allow you to filter the data, and it displays the data in various types of charts including line charts, bar charts, and a heatmap. "} onClick={()=> window.open("https://github.com/JosephHauter/country-market-dashboard")} />
+    <WorkCard key={"Project 3"} img={"images/twitterClone.png"} name={"Twitter Clone"} description={"Twitter Clone built with teammate for a bootcamp built with Javascript, next.js, HTML, CSS, mongoDB"} onClick={()=> window.open("https://github.com/JosephHauter/Social-Media-App")} />
+  <WorkCard key={"Project 4"} img={"images/Tracker.png"} name={"ToDoList Tracker"} description={"Wanted to learn react.js and what better way than to start with a activity tracker, but with a motivational quote API every time you refresh."} onClick={()=> window.open("https://todo-list-five-rose.vercel.app/")} />
+  {/* <WorkCard key={"Project 5"} img={"images/atm app.png"} name={"ATM Banking App"} description={"Built my first ever C++ project making a ATM APP where you can deposit, withdraw, check balance."} onClick={()=> window.open("https://github.com/JosephHauter/Virus-Tracker")} /> */}
+
+</div>
+  </div>
+  <br /><br /><br /><br /><br />
+
+  
     
       {/* 
       <Contact />
