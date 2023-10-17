@@ -8,6 +8,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react';
+
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -34,6 +36,7 @@ function App() {
           <Route path="/blog" element={<Blog />} />
         </Routes>
       </Router>
+      <Analytics />
     </ThemeProvider>
   );
 }
