@@ -4,7 +4,7 @@ import { TypeAnimation } from 'react-type-animation';
 function About() {
   return (
 <div class="container mx-auto mb-10 max-w-screen-xl" id='about'>
-          <h1 className="tablet:m-10 text-2xl text-bold">About.</h1>
+<h1 className="tablet:m-10 text-2xl font-bold">About.</h1>
     <div className="app-window">
       <div className="app-window-header">
         <div className="app-window-button red"></div>
@@ -15,7 +15,7 @@ function About() {
         {<div className="card-body font-trebuchet text-justify ml-3 mr-3" style={{height: "auto", fontSize: "132%", lineHeight: "200%"}}>
   <br />
   <div style={{display: "flex", justifyContent: "center"}}>
-    <img src='images/me.png' class='object-contain' style={{width: "20%", height: "auto", borderRadius: "12%"}}></img> 
+    <img src='images/me.jpeg' class='object-contain' style={{width: "20%", height: "auto", borderRadius: "12%"}}></img> 
   </div>
   <br />
   <p>
