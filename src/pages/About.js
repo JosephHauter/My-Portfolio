@@ -27,7 +27,7 @@ Currently practicing my data structures and algorithms💪
 Interests/ Hobbies:
 <br/>
 <TypeAnimation 
-    sequence={['Going to the Gym', 1500,'Playing Valorant/ League of legends/ Minecraft and many more!',1500,'Watching Anime/ TV shows/ Movies', 1500, 'Reading Novels and Comic Books',1500, 'Leetcoding', 1500]}
+    sequence={['Going to the Gym', 1500,'Playing Valorant/League of legends/ Minecraft and many more!',1500,'Watching Anime/ TV shows/ Movies', 1500, 'Reading Novels and Comic Books',1500, 'Leetcoding', 1500]}
     repeat={Infinity} 
     />
 

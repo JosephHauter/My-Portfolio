@@ -4,8 +4,8 @@ import Fireworks from '@fireworks-js/react';
 const SecretPage = () => {
   return (
     <div className="relative min-h-screen">
-      <h1 className="text-center text-black text-4xl pt-10">🎉 Secret Page 🎉</h1>
-      <h1 className="text-center text-black text-4xl pt-10">👷‍♂️ WIP 👷‍♂️</h1>
+      <h1 className="text-center text-4xl pt-10">🎉 Secret Page 🎉</h1>
+      <h1 className="text-center text-4xl pt-10">👷‍♂️ WIP 👷‍♂️</h1>
       <Fireworks 
         options={{ 
           rocketsPoint: { min: 0, max: 100 }, 

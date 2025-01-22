@@ -4,7 +4,7 @@ import Blog from './pages/Blog';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 import HomePage from './pages/HomePage';
-import SecretPage from './pages/SecretPage'; // Import SecretPage
+import SecretPage from './pages/SecretPage';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import ParticlesBackground from './components/ParticlesBackground';
@@ -39,7 +39,7 @@ function App() {
           <Route path="/resume" element={<Resume />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/secret" element={<SecretPage />} /> {/* Add route for SecretPage */}
+          <Route path="/secret" element={<SecretPage />} /> 
         </Routes>
         <Footer />
       </Router>

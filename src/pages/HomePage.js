@@ -4,7 +4,6 @@ import Footer from '../components/Footer';
 import About from './About';
 import Blog from './Blog';
 import Resume from './Resume';
-// import Contact from './Contact';
 import { ThemeProvider } from 'next-themes'
 import '../global.css'
 import { TypeAnimation } from 'react-type-animation';

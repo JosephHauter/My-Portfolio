@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from '../components/Header';
   // Add more posts here
-
 const posts = [
   { title: 'Completed Okta Internship', content: 'During my Okta internship, I developed and deployed a Java app on AWS-ECS, integrating Boomi API and AWS S3. This project significantly reduced errors through proactive monitoring and notifications. I also implemented a Splunk dashboard and alert system that leverages Machine Learning to detect outliers, enhancing error detection and response times. Additionally, I designed and developed a monitoring service from concept to deployment, which continues to assist multiple teams, saving time and resources.', date: '2024-8-06', image: './images/okta-offer-accept-black.png' },
   { title: 'Final day of GSWEP x Basta', content: 'I was mentored for roughly 10 weeks with a Google Enginner and I can say it was one of the greatest experience ever. I was assigned MIT lecuture videos and practiced everyday my data strucutres and algorithems and had a great connection with my mentor. By the end I was really inspired by my mentor and hope to one day be just like him.', date: '2023-10-02', image: './images/GSwep.jpg' },
