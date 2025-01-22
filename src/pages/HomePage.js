@@ -4,7 +4,7 @@ import { ThemeProvider } from 'next-themes'
 import '../global.css'
 import { TypeAnimation } from 'react-type-animation';
 import WorkCard from './Work';
-import SkillsCard from '../components/Skills'
+import Skills from './Skills'; // Import the Skills component
 import { Link } from 'react-router-dom';
 import Projects from './Projects'; // Import the Projects component
 
@@ -35,14 +35,7 @@ const HomePage = () => {
         <br /><br /><br /><br /><br />
         <About />
         <br /><br /><br /><br /><br />
-        <div className="container mx-auto mb-10 max-w-screen-xl" id="skills">
-        <h1 className="tablet:m-10 text-2xl font-bold">Skills.</h1>          <div className="mt-5 tablet:m-10 grid grid-cols-1 laptop:grid-cols-2 gap-6">
-            <SkillsCard key={"Skills 1"} name={"Programming Languages"} description={"Python, C++, Javascript, HTML, CSS, PostgreSQL, Java, SCSS, Ruby"} />
-            <SkillsCard key={"Skills 2"} name={"FrameWorks/ Libraries"} description={"React, NodeJs, TailWind, Bootstrap, Webdriverio, Axios, Cucumber, matplotlib, NumPy, Pandas, ExpressJs, ChartJs, mobproxy, selenium, webdriver"} />
-            <SkillsCard key={"Skills 3"} name={"Tools"} description={"Docker, Git, MongoDB, VS Code, Atom, Github, Postman, AWS"} />
-            <SkillsCard key={"Skills 4"} name={"Vocal languages"} description={"English-Native, Spanish-Beginner, French-Beginner, Arabic-Beginner"} />
-          </div>
-        </div>
+        <Skills />
         <br /><br /><br /><br /><br />
         <Projects /> 
         <br /><br /><br /><br /><br />

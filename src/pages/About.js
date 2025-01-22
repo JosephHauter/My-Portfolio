@@ -33,10 +33,7 @@ Interests/ Hobbies:
 
   </p>
 </div>
-}
-      </div>
-    </div>
-    </div>
+}</div></div></div>
   );
 }
 
