@@ -11,7 +11,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 const Resume = () => {
   return (
     <div>      
-      <Header />
+      
       <br/><br/><br/><br/>      
       <div className="container mx-auto mb-10 bg-slate-50	" style={{ display: 'flex', justifyContent: 'center' }}>
         <Document file={resume}>
