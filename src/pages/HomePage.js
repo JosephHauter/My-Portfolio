@@ -4,9 +4,9 @@ import { ThemeProvider } from 'next-themes'
 import '../global.css'
 import { TypeAnimation } from 'react-type-animation';
 import WorkCard from './Work';
-import Skills from './Skills'; // Import the Skills component
+import Skills from './Skills';
 import { Link } from 'react-router-dom';
-import Projects from './Projects'; // Import the Projects component
+import Projects from './Projects';
 
 const HomePage = () => {
   return (
