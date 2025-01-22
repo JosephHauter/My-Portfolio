@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from '../components/Header';
   // Add more posts here
 const posts = [
   { title: 'Completed Okta Internship', content: 'During my Okta internship, I developed and deployed a Java app on AWS-ECS, integrating Boomi API and AWS S3. This project significantly reduced errors through proactive monitoring and notifications. I also implemented a Splunk dashboard and alert system that leverages Machine Learning to detect outliers, enhancing error detection and response times. Additionally, I designed and developed a monitoring service from concept to deployment, which continues to assist multiple teams, saving time and resources.', date: '2024-8-06', image: './images/okta-offer-accept-black.png' },
@@ -11,7 +10,6 @@ const posts = [
 const Blog = () => {
   return (
     <div className="container mx-auto mb-10">
-      <Header />
       <h1 className="text-4xl font-bold mb-5">Blog.</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {posts.map((post, index) => (

@@ -1,9 +1,5 @@
 import React from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
 import About from './About';
-import Blog from './Blog';
-import Resume from './Resume';
 import { ThemeProvider } from 'next-themes'
 import '../global.css'
 import { TypeAnimation } from 'react-type-animation';
